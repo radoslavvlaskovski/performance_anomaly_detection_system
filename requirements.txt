@@ -1,0 +1,5 @@
+prometheus_client
+numpy
+pandas
+cassandra-driver
+requests
