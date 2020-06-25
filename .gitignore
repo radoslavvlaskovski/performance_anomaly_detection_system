@@ -56,7 +56,7 @@ venv/
 *.log
 
 # Sphinx documentation
-docs/_build/
+graphics/_build/
 
 # PyBuilder
 target/
@@ -81,3 +81,5 @@ playbooks/k8s-cluster/admin.conf
 *.ipynb_checkpoints/
 
 *.csv
+
+.DS_Store

@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 
-from performance_anomaly_detection.anomaly_detection.detector import GaussianTailDetector, AccumulativeDetector, \
+from performance_anomaly_detection.threshold_functions.detector import GaussianTailDetector, AccumulativeDetector, \
     DiffType
 from performance_anomaly_detection.result_generator.train import ModelTrainer, ExperimentDataType, ExperimentModel
 from performance_anomaly_detection.training.utils import plot_results_scores
